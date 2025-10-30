@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="hero">
-     <h1>Taiwo Oriyomi</h1>
+     <h1></h1>
      <div className="container header-flex">
         <nav>
           <a href="#projects">Projects</a>

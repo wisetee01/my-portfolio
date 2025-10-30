@@ -9,12 +9,18 @@ export default function Contact() {
       <form
         action="https://formspree.io/f/mnnovopw"  // ← CHANGE THIS
         method="POST"
-        className="contact-form"
-      >
+        className="contact-form">
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="your@email.com" required />
-        <textarea name="message" placeholder="Your Message" rows={5} required />
-        <button type="submit" className="btn primary">Send Message</button>
+        <select name="service" required>
+        <option value="">Choose Service</option>
+        <option>Landing Page</option>
+        <option>Bug Fixes</option>
+        <option>React Page</option>
+        <option>Custom Project</option>
+    </select>
+      <textarea name="message" placeholder="Tell me about your project..." rows={5} required></textarea>
+        <button type="submit" className="btn primary">Send Message → Get FeedBack in 5min</button>
       </form>
 
       <p className="social">

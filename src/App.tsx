@@ -20,7 +20,7 @@ function App() {
               image="tapi.jpg"
               demoUrl="https://tapifysite.vercel.app/"
               githubUrl="https://github.com/wisetee01/tapifysite"
-              tags={['HTML', 'CSS', 'JavaScript', 'Flexbox']}
+              tags={['HTML', 'CSS', 'JavaScript', 'Flexbox',]}
             />
             <ProjectCard
               title="To Do List"
