@@ -13,6 +13,19 @@ function App() {
         <section id="projects" className="container section">
           <h2 className="section-title">Our Projets</h2>
           <div className="grid">
+
+            <ProjectCard
+              title="GymFlex"
+              description="Turn Figma To Code. In this project, I transformed a comprehensive GymFlex Figma design into a fully functional,
+               pixel-perfect web application. 
+              This was more than a conversion; it was a meticulous reconstruction of the design's vision, demonstrating an advanced
+               understanding of modern development principles and a seamless
+               approach to bridging the gap between design and code."
+              image="gymflex.jpg"
+              demoUrl="https://gymflex-rho.vercel.app/"
+              githubUrl="https://github.com/wisetee01/gymflex"
+              tags={['HTML', 'CSS', 'JavaScript',]}
+            />
             
             <ProjectCard
               title="Solar App"
