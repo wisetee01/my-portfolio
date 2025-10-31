@@ -13,7 +13,18 @@ function App() {
         <section id="projects" className="container section">
           <h2 className="section-title">Our Projets</h2>
           <div className="grid">
-             <ProjectCard
+            
+            <ProjectCard
+              title="Solar App"
+              description="A responsive solar monitoring app with real-time dashboard, dynamic charts, geolocation-based weather simulation,
+               automated toast alerts for maintenance & performance, collapsible FAQ support, and social sharing buttons."
+              image="solarapp.png"
+              demoUrl="https://solar-app-eosin.vercel.app/"
+              githubUrl="https://github.com/wisetee01/solar-app"
+              tags={['HTML', 'CSS', 'JavaScript',]}
+            />
+
+            <ProjectCard
               title="Tapify"
               description="Tapify is a streamlined digital marketing platform designed to facilitate seamless sales closures. Featuring an intuitive registration page, 
               it instantly displays bank details upon submission, guiding users effortlessly to contact support—all within a single, unified interface."
@@ -22,6 +33,7 @@ function App() {
               githubUrl="https://github.com/wisetee01/tapifysite"
               tags={['HTML', 'CSS', 'JavaScript', 'Flexbox',]}
             />
+
             <ProjectCard
               title="To Do List"
               description="A to do list that stores tasks locally"
@@ -30,6 +42,7 @@ function App() {
               githubUrl="https://github.com/wisetee01/To-Do-List"
               tags={['HTML', 'CSS', 'JavaScript',]}
             />
+
             {/* Add more projects */}
           </div>
         </section>
