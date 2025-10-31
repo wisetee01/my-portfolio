@@ -18,7 +18,7 @@ function App() {
               title="Solar App"
               description="A responsive solar monitoring app with real-time dashboard, dynamic charts, geolocation-based weather simulation,
                automated toast alerts for maintenance & performance, collapsible FAQ support, and social sharing buttons."
-              image="solarapp.png"
+              image="solar.jpg"
               demoUrl="https://solar-app-eosin.vercel.app/"
               githubUrl="https://github.com/wisetee01/solar-app"
               tags={['HTML', 'CSS', 'JavaScript',]}
