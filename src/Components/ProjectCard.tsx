@@ -10,7 +10,7 @@ interface ProjectCardProps {
 export default function ProjectCard({ title, description, image, demoUrl, githubUrl, tags }: ProjectCardProps) {
   return (
     <article className="card" tabIndex={0}>
-      <img src={image} alt={`${title} demo`} loading="lazy" />
+      <img src={image} alt={`${title} demo` } loading="lazy" />
       <div className="card-content">
         <h3>{title}</h3>
         <p>{description}</p>

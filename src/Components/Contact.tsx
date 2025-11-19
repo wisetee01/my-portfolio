@@ -17,6 +17,7 @@ export default function Contact() {
         <option>Landing Page</option>
         <option>Bug Fixes</option>
         <option>React Page</option>
+        <option>Ai Integration</option>
         <option>Custom Project</option>
     </select>
       <textarea name="message" placeholder="Tell me about your project..." rows={5} required></textarea>
