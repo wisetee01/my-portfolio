@@ -38,7 +38,7 @@ function App() {
                 Covers 80% of e-commerce needs. 30+ Pro Core Features and can Handles 1k+ users/day.."
               image="commerce-api1.jpg"
               demoUrl="https://ecommerce-api-1-w70q.onrender.com"
-              githubUrl=""
+              githubUrl="https://github.com/wisetee01/ecommerce-api"
               tags={['Node.js', 'Express', 'MongoDB', 'JWT auth','bcrypt','CloudinaryStorage',
               'nodemailer','multer',]}
             />
