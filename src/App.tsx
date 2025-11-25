@@ -22,7 +22,7 @@ function App() {
                (item specifics, contact info, payment method), handles secure payment proof uploads via Google Cloud Storage (GCS), and automates the final confirmation and notification processes.
               The key feature is a fault-tolerant, dual-model AI system that ensures a seamless user experience while providing business owners with an efficient, manual verification workflow that sends all 
                data and links directly via email for immediate processing."
-              image="ai-business.png"
+              image="ai-business.jpg"
               demoUrl="https://business-assistance-okms.onrender.com"
               githubUrl="https://github.com/wisetee01/business-assistance"
               tags={[ 'Python (FastAPI)', 'Pydantic','OpenAI', 'Google Gemini', 'MongoDB', 'Google Cloud Storage', 'SendGrid', 'HTML', 'CSS', 'JavaScript', ]}
